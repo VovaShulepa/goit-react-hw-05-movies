@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
-import { Link, Outlet, useLocation, useParams } from 'react-router-dom';
+import { Link, Outlet, useParams, useLocation } from 'react-router-dom';
 import { getMovieById } from 'service/Api';
 
 import css from './MovieDetails.module.css';
 
-export const MovieDetails = () => {
+const MovieDetails = () => {
   const location = useLocation();
   const [movie, setMovie] = useState(null);
   const { movieId } = useParams();
@@ -26,7 +26,7 @@ export const MovieDetails = () => {
         <img
           className={css.poster}
           src={`https://image.tmdb.org/t/p/w200${movie.poster_path}`}
-          alt="film"
+          alt=""
         />
         <div className={css.movieInfo}>
           <div className={css.mainInfo}>
@@ -68,3 +68,5 @@ export const MovieDetails = () => {
     </>
   );
 };
+
+export default MovieDetails;

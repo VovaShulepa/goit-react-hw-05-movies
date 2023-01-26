@@ -1,0 +1,43 @@
+.list {
+   display: flex;
+   padding: 0px;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 30px;
+}
+
+
+.item {
+   padding: 10px;
+   list-style: none;
+   text-decoration: none;
+
+}
+
+.item:hover {
+   background-color: lightgrey;
+}
+
+.item:focus {
+   background-color: lightgrey;
+}
+
+.title {
+   color: black;
+   text-decoration: none;
+}
+
+.poster {
+   width: 350px;
+
+}
+
+.title:hover {
+   color: red;
+   /* border: solid 1px red; */
+}
+
+.title:focus {
+   color: red;
+
+}
