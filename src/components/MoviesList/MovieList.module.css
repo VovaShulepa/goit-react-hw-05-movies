@@ -11,33 +11,38 @@
    padding: 10px;
    list-style: none;
    text-decoration: none;
-
+   border-radius: 15px;
 }
 
 .item:hover {
-   background-color: lightgrey;
+   background-color: rgba(46, 218, 248, 0.288);
+
 }
 
 .item:focus {
-   background-color: lightgrey;
+   background-color: rgba(46, 218, 248, 0.315);
+
 }
 
 .title {
    color: black;
    text-decoration: none;
+   font-size: 24px;
+   font-weight: 700;
+   text-align: center;
 }
 
 .poster {
    width: 350px;
-
+   border-radius: 15px;
 }
 
 .title:hover {
-   color: red;
-   /* border: solid 1px red; */
+   color: #ccfc4a;
+
 }
 
 .title:focus {
-   color: red;
+   color: #ccfc4a;
 
 }

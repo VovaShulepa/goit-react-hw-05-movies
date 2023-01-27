@@ -9,19 +9,23 @@ ul {
    padding: 15px;
    text-decoration: none;
    text-align: center;
-   color: black;
-   border: solid 1px black;
-   border-radius: 5px;
+   color: #65005e;
+   border: solid 1px #65005e;
+   border-radius: 10px;
+   font-weight: 700;
+   transition: 400ms;
 }
 
 .link:hover {
-   color: red;
-   border: solid 1px red;
+   background-color: rgba(46, 218, 248, 0.644);
+   color: #ccfc4a;
+   border: solid 1px #ccfc4a;
 }
 
 .link:focus {
-   color: red;
-   border: solid 1px red;
+   background-color: rgba(46, 218, 248, 0.644);
+   color: #ccfc4a;
+   border: solid 1px #ccfc4a;
 }
 
 .movie {
@@ -60,22 +64,26 @@ ul {
 
 .btn {
    display: block;
-   /* margin: 20px 60px; */
    width: 75px;
    padding: 15px;
    text-decoration: none;
    text-align: center;
-   color: black;
-   border: solid 1px black;
-   border-radius: 5px;
+   color: #65005e;
+   border: solid 1px #65005e;
+   border-radius: 10px;
+   font-weight: 700;
+   transition: 400ms;
 }
 
 .btn:hover {
-   color: red;
-   border: solid 1px red;
+   background-color: rgba(46, 218, 248, 0.644);
+   color: #ccfc4a;
+   border: solid 1px #ccfc4a;
 }
 
 .btn:focus {
-   color: red;
-   border: solid 1px red;
+   background-color: rgba(46, 218, 248, 0.644);
+   color: #ccfc4a;
+   border: solid 1px #ccfc4a;
+
 }

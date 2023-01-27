@@ -1,8 +1,8 @@
+import { MovieList } from 'components/MoviesList/MoviesList';
 import { SearchBox } from 'components/SearchBox/SearchBox';
 import { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { getSearchMovie } from 'service/Api';
-import { MovieList } from 'components/MovieList/MovieList';
 
 const Movies = () => {
   const [searchParams, setSearchParams] = useSearchParams();
